@@ -10,7 +10,7 @@ public:
     Pair(const A& key, const B& value);
     Pair(const Pair& other) = default;
     Pair(Pair&& other) = default;
-    ~Pair();
+    ~Pair() = default;
 
     Pair& operator=(const Pair& other) = default;
     Pair& operator=(Pair&& other) = default;
